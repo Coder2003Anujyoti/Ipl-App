@@ -1,0 +1,375 @@
+*{
+  font-family:Arial,sans-serif;
+}
+body{
+  background-color:dodgerblue;
+  overflow-x:hidden;
+}
+#player{
+  width:1150px;
+  height:800px;
+  background-color:black;
+  position:absolute;
+  top:7420px;
+  left:0px;
+}
+#game{
+  width:450px;
+  height:450px;
+  position:absolute;
+  left:350px;
+  top:30px;
+}
+#game img{
+  width:450px;
+  height:450px;
+  border-radius:300px;
+}
+#player p{
+  color:white;
+  width:1100px;
+  font-size:35px;
+  position:absolute;
+  font-weight:bolder;
+  top:495px;
+  left:40px;
+}
+#profilepage{
+  display:none;
+}
+#logo{
+  width:255px;
+  height:155px;
+  position:relative;
+  left:25px;
+  top:15px;
+}
+#nav-bar{
+  width:1150px;
+  height:200px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  background-color:black;
+  color:white;
+  font-style:sans-serif;
+}
+#list{
+  display:flex;
+  gap:60px;
+  font-size:55px;
+  flex-direction:row;
+  font-weight:bolder;
+  color:white;
+  text-decoration:none;
+  position:absolute;
+  top:5px;
+  left:325px;
+}
+#list a{
+  color:white;
+  text-decoration:none;
+}
+#i1,#i2,#i3,#i4,#i5,#im1,#im2,#im3,#im4,#im5{
+  position:absolute;
+  left:0px;
+  top:200px;
+  width:1150px;
+  height:650px;
+}
+#intro-panel{
+  width:1150px;
+  height:1600px;
+  border-radius:105px;
+  position:absolute;
+  top:850px;
+  left:0px;
+  background-color:black;
+}
+#intro-panel p{
+  position:absolute;
+  color:white;
+  left:15px;
+  font-size:35px;
+  font-weight:bolder;
+  font-style:sans-serif;
+}
+#intro-pic{
+  width:1150px;
+  height:1150px;
+}
+#about{
+  width:1150px;
+  height:655px;
+  position:absolute;
+  top:2452px;
+  left:0px;
+  background-color:black;
+}
+#about-heading{
+  position:absolute;
+  left:395px;
+  font-size:85px;
+  text-decoration:underline;
+  color:white;
+}
+#about-text{
+  position:absolute;
+  top:150px;
+  left:35px;
+  font-size:35px;
+  font-weight:bolder;
+  font-style:sans-serif;
+  color:white;
+}
+#teams{
+  width:1150px;
+  height:3000px;
+  position:absolute;
+  top:3112px;
+  left:0px;
+  background-color:black;
+}
+#teams-logo{
+  width:450px;
+  height:350px;
+  position:absolute;
+  top:20px;
+  left:330px;
+}
+#csk-box{
+  width:350px;
+  height:350px;
+  background-color:yellow;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:450px;
+  left:150px;
+}
+#kkr-box{
+  width:350px;
+  height:350px;
+  background-color:purple;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:450px;
+  left:650px;
+}
+#mi-box{
+  width:350px;
+  height:350px;
+  background-color:skyblue;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:950px;
+  left:150px;
+}
+#dc-box{
+  width:350px;
+  height:350px;
+  background-color:blue;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:950px;
+  left:650px;
+}
+#rcb-box{
+  width:350px;
+  height:350px;
+  background-color:red;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:1450px;
+  left:150px;
+}
+#rr-box{
+  width:350px;
+  height:350px;
+  background-color:hotpink;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:1450px;
+  left:650px;
+}
+#srh-box{
+  width:350px;
+  height:350px;
+  background-color:orange;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:1950px;
+  left:150px;
+}
+#pbks-box{
+  width:350px;
+  height:350px;
+  background-color:darkred;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:1950px;
+  left:650px;
+}
+#lsg-box{
+  width:350px;
+  height:350px;
+  background-color:white;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:2450px;
+  left:150px;
+}
+#back-btn{
+  position:absolute;
+  top:50px;
+  left:1040px;
+  background-color:black;
+  color:white;
+  font-size:85px;
+  border:2px solid black;
+  font-weight:bolder;
+}
+#back-btn a{
+  color:white;
+  text-decoration:none;
+}
+#gt-box{
+  width:350px;
+  height:350px;
+  background-color:silver;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:2450px;
+  left:650px;
+}
+#contacts{
+  width:1150px;
+  height:1300px;
+  background-color:black;
+  position:absolute;
+  top:6115px;
+  left:0px;
+}
+#contacts-heading{
+  color:white;
+  font-family:Arial,sans-serif;
+  font-size:90px;
+  position:absolute;
+  left:30px;
+}
+#contacts ul{
+  display:flex;
+  flex-direction:column;
+  gap:45px;
+  color:grey;
+  position:absolute;
+  top:140px;
+  font-size:56px;
+  left:15px;
+}
+#contacts a{
+  color:grey;
+  text-decoration:none;
+}
+#team-container{
+  width:1150px;
+  height:450px;
+  background-color:black;
+  position:absolute;
+  left:0px;
+  top:2460px;
+  color:white;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  
+}
+#team-container img{
+  width:400px;
+  height:400px;
+  position:absolute;
+  top:0px;
+  left:350px;
+  transition: transform 0.3s ease-in-out;
+}
+#team-container img:hover{
+  transform:scale(1.1);
+}
+#player-section{
+  width:1150px;
+  height:7000px;
+  background-color:black;
+  position:absolute;
+  top:2920px;
+  left:0px;
+}
+#player-sections{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:5px;
+  position:absolute;
+  left:0px;
+}
+#player-profile img{
+  width:550px;
+  height:550px;
+  transition: transform 0.3s ease-in-out;
+}
+#player-profile img:hover{
+  transform:scale(1.1);
+}
+
+#name{
+  color:white;
+  font-size:65px;
+  position:relative;
+  left:5px;
+  width:550px;
+  height:150px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#role{
+  color:white;
+  font-size:65px;
+  position:relative;
+  left:5px;
+  top:-30px;
+  width:550px;
+  height:150px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
