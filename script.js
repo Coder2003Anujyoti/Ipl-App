@@ -78,4 +78,5 @@ function display(name){
       </div>`;
     }
   }
+  document.getElementById("audio").play();
 }
