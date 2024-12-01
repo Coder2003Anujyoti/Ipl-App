@@ -77,6 +77,5 @@ function display(name){
         <div id="role"><h4>${item.role}</h4></div>
       </div>`;
     }
-  }
-  document.getElementById("audio").play();
+}
 }
