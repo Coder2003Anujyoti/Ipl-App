@@ -373,3 +373,415 @@ body{
   justify-content:center;
   
 }
+@media (min-width:1000px){
+  *{
+  font-family:Arial,sans-serif;
+}
+body{
+  background-color:dodgerblue;
+ overflow-x: hidden;
+ overflow-y: scroll;
+}
+#logo{
+  width:225px;
+  height:125px;
+  position:absolute;
+  left:25px;
+  top:15px;
+}
+#nav-bar{
+  width:2050px;
+  height:150px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  background-color:black;
+  color:white;
+  font-style:sans-serif;
+}
+#list{
+  display:flex;
+  gap:120px;
+  font-size:35px;
+  flex-direction:row;
+  font-weight:bolder;
+  color:white;
+  text-decoration:none;
+  position:absolute;
+  top:20px;
+  left:420px;
+}
+#list a{
+  color:white;
+  text-decoration:none;
+}
+#i1,#i2,#i3,#i4,#i5,#im1,#im2,#im3,#im4,#im5{
+  position:absolute;
+  left:0px;
+  top:150px;
+  width:750px;
+  height:350px;
+}
+#slide-bar{
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+#intro-panel{
+  width:2050px;
+  height:200px;
+  position:absolute;
+  top:505px;
+  left:0px;
+  background-color:black;
+  border-radius: 0%;
+}
+#intro-panel p{
+  position:absolute;
+  color:white;
+  width:1300px;
+  left:15px;
+  font-size:25px;
+  font-weight:bolder;
+  font-style:sans-serif;
+}
+#intro-pic{
+  width:607px;
+  height:350px;
+  position:absolute;
+  top:-355px;
+  left:750px;
+}
+#about{
+  width:2050px;
+  height:355px;
+  position:absolute;
+  top:710px;
+  left:0px;
+  background-color:black;
+}
+#about-heading{
+  position:absolute;
+  left:550px;
+  font-size:55px;
+  text-decoration:underline;
+  color:white;
+}
+#about-text{
+  position:absolute;
+  top:100px;
+  left:30px;
+  font-size:25px;
+  width:1300px;
+  font-weight:bolder;
+  font-style:sans-serif;
+  color:white;
+}
+#teams{
+  width:2050px;
+  height:900px;
+  position:absolute;
+  top:1070px;
+  left:0px;
+  background-color:black;
+}
+#teams-logo{
+  width:250px;
+  height:150px;
+  position:absolute;
+  top:50px;
+  left:550px;
+}
+#csk-box{
+  width:200px;
+  height:200px;
+  background-color:yellow;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:310px;
+  left:100px;
+}
+#csk-box img{
+  width:150px;
+  height:150px;
+}
+#kkr-box{
+  width:200px;
+  height:200px;
+  background-color:purple;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:310px;
+  left:350px;
+}
+#kkr-box img{
+  width:150px;
+  height:150px;
+}
+#mi-box{
+  width:200px;
+  height:200px;
+  background-color:skyblue;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:310px;
+  left:600px;
+}
+#mi-box img{
+  width:150px;
+  height:150px;
+}
+#dc-box{
+  width:200px;
+  height:200px;
+  background-color:blue;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:310px;
+  left:850px;
+}
+#dc-box img{
+  width:150px;
+  height:150px;
+}
+#rcb-box{
+  width:200px;
+  height:200px;
+  background-color:red;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:310px;
+  left:1100px;
+}
+#rcb-box img{
+  width:150px;
+  height:150px;
+}
+#rr-box{
+  width:200px;
+  height:200px;
+  background-color:hotpink;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:550px;
+  left:100px;
+}
+#rr-box img{
+  width:150px;
+  height:150px;
+}
+#srh-box{
+  width:200px;
+  height:200px;
+  background-color:orange;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:550px;
+  left:350px;
+}
+#srh-box img{
+  width:150px;
+  height:150px;
+}
+#pbks-box{
+  width:200px;
+  height:200px;
+  background-color:darkred;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:550px;
+  left:600px;
+}
+#pbks-box img{
+  width:150px;
+  height:150px;
+}
+#lsg-box{
+  width:200px;
+  height:200px;
+  background-color:white;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:550px;
+  left:850px;
+}
+#lsg-box img{
+  width:150px;
+  height:150px;
+}
+#gt-box{
+  width:200px;
+  height:200px;
+  background-color:silver;
+  border-radius:100%;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top:550px;
+  left:1100px;
+}
+#gt-box img{
+  width:150px;
+  height:150px;
+}
+#contacts{
+  width:2050px;
+  height:800px;
+  background-color:black;
+  position:absolute;
+  top:1975px;
+  left:0px;
+}
+#contacts-heading{
+  color:white;
+  font-family:Arial,sans-serif;
+  font-size:55px;
+  position:absolute;
+  left:100px;
+}
+#contacts ul{
+  display:flex;
+  flex-direction:column;
+  gap:25px;
+  color:grey;
+  position:absolute;
+  top:100px;
+  font-size:35px;
+  left:100px;
+}
+#contacts a{
+  color:grey;
+  text-decoration:none;
+}
+#player{
+  width:2050px;
+  height:600px;
+  background-color:black;
+  position:absolute;
+  top:2780px;
+  left:0px;
+}
+
+#game img{
+  width:300px;
+  height:300px;
+  border-radius:300px;
+  position:absolute;
+  top:10px;
+  left:175px;
+}
+#player p{
+  color:white;
+  width:1245px;
+  font-size:30px;
+  position:absolute;
+  font-weight:bolder;
+  top:365px;
+  left:30px;
+}
+#team-container{
+  width:2050px;
+  height:200px;
+  background-color:black;
+  position:absolute;
+  left:0px;
+  top:710px;
+  color:white;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+#team-container img{
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:-8px;
+  left:600px;
+  transition: transform 0.3s ease-in-out;
+}
+#team-container img:hover{
+  transform:scale(1.1);
+}
+#player-section{
+  width:2050px;
+  height:3250px;
+  background-color:black;
+  position:absolute;
+  top:915px;
+  left:0px;
+}
+#player-sections{
+  width:1900px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:0px;
+  position:absolute;
+  left:0px;
+}
+#player-profile img{
+  width:350px;
+  height:350px;
+  transition: transform 0.3s ease-in-out;
+}
+#player-profile img:hover{
+  transform:scale(1.1);
+}
+#player-profile {
+  width:500px;
+}
+
+#name{
+  color:white;
+  font-size:35px;
+  position:relative;
+  left:-100px;
+  width:550px;
+  height:150px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#role{
+  color:white;
+  font-size:35px;
+  position:relative;
+  left:-100px;
+  top:-80px;
+  width:550px;
+  height:150px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
+}
+
